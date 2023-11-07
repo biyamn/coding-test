@@ -1,4 +1,6 @@
-// 시간초과
+// 키워드: early return
+
+// 시간초과한 코드 --> early return을 해줘야겠다
 // function solution(participant, completion) {
 //   for (let j = 0; j < completion.length; j++) {
 //     const index = participant.indexOf(completion[j]);
