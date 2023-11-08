@@ -34,4 +34,23 @@
 
 ### 다시 풀어야 할 문제
 
+<details>
+<summary>목록</summary>
+<div markdown="1">
+
 - [ ] [정렬] H-Index
+
+</div>
+</details>
+
+### 궁금증
+
+<details>
+<summary>질문</summary>
+<div markdown="1">
+
+- [ ] new Map()을 많이 사용하는 것 같은데 그냥 map을 생성하는 것과 차이가 있나?
+- [ ] set은 new Set()으로만 사용 가능한 줄 알았는데 new Map().set으로도 사용 가능한가? 어떤 차이지?
+
+</div>
+</details>
