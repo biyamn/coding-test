@@ -9,9 +9,17 @@
 
 ### 스터디 로그
 
+<details>
+<summary>날짜별 풀이 기록</summary>
+<div markdown="1">
+
 - 2023-11-06: 정렬 3문제
 - 2023-11-07: 해시 2문제
 - 2023-11-12: 해시 1문제, 완전탐색 1문제
+- 2023-11-16: 연습문제 1문제
+
+</div>
+</details>
 
 ### 배운 것
 
@@ -25,7 +33,7 @@
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/toString'>toString()</a>: 문자열로 바꾼다.
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join'>join()</a>: 배열을 문자열로 변환한다.
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort'>sort((a, b) => b + a - (a + b))</a>: 문자열을 비교할 때, 두 문자열을 이은 값이 큰 순서대로 정렬한다.
-- <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max'>Math.max()</a>: 배열을 넣을 때 `...array`로 넣어준다.
+- <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max'>Math.max()</a>: 배열을 넣을 때 `...array`로 넣어준다. Math.max()는 숫자(배열)만 받는다(문자는 NaN이 됨)
 
 #### 개념 정리
 
