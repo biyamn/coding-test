@@ -17,7 +17,7 @@
 - 2023-11-07: 해시 2문제
 - 2023-11-12: 해시 1문제, 완전탐색 1문제
 - 2023-11-16: 연습문제 1문제
-- 2023-11-17: 연습문제 1문제 - 푸는 중(블로깅 예정)
+- 2023-11-19: 연습문제 1문제
 
 </div>
 </details>
@@ -30,7 +30,7 @@
 
 #### 함수 정리
 
-- <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/slice'>slice()</a>: begin부터 end까지 복사하여 새로운 배열을 만든다.
+- <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/slice'>slice()</a>: begin부터 end까지 복사하여 새로운 배열을 만든다.(반복문 안써도 됨)
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/toString'>toString()</a>: 문자열로 바꾼다.
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join'>join()</a>: 배열을 문자열로 변환한다.
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort'>sort((a, b) => b + a - (a + b))</a>: 문자열을 비교할 때, 두 문자열을 이은 값이 큰 순서대로 정렬한다.
