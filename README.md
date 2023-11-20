@@ -39,6 +39,7 @@
 #### 개념 정리
 
 - return과 break: return은 함수의 탈출, break는 반복문의 탈출
+- 배열이 아니라 문자열도 .length가 됨
 
 </div>
 </details>
