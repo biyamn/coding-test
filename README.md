@@ -18,6 +18,7 @@
 - 2023-11-12: 해시 1문제, 완전탐색 1문제
 - 2023-11-16: 연습문제 1문제
 - 2023-11-19: 연습문제 1문제
+- 2023-11-21: 스택큐 1문제
 
 </div>
 </details>
@@ -35,6 +36,7 @@
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join'>join()</a>: 배열을 문자열로 변환한다.
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort'>sort((a, b) => b + a - (a + b))</a>: 문자열을 비교할 때, 두 문자열을 이은 값이 큰 순서대로 정렬한다.
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max'>Math.max()</a>: 배열을 넣을 때 `...array`로 넣어준다. Math.max()는 숫자(배열)만 받는다(문자는 NaN이 됨)
+- <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map'>map()</a>: 두번째 인자가 있다. 그래서 잘 하면 이중 for문을 만들 수 있는 것 같다.
 
 #### 개념 정리
 
@@ -53,6 +55,7 @@
 - [ ] [정렬] H-Index
 - [ ] [해시] 의상
 - [ ] [완전탐색] 최소 직사각형
+- [ ] [스택큐] 기능 개발(11/22에 하드트레이닝 계획)
 
 </div>
 </details>
