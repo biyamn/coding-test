@@ -1,7 +1,7 @@
 const progresses = [95, 90, 99, 99, 80, 99];
 const speeds = [1, 1, 1, 1, 1, 1];
 // 7, 3, 7 -> [2, 1]
-// 5, 10, 1, 1, 20, 10 -> [1, 3, 2]
+// 5, 10, 1, 1, 20, 1 -> [1, 3, 2]
 
 function my_solution(progresses, speeds) {
   let days = [];
@@ -57,6 +57,36 @@ function solution(progresses, speeds) {
 
   return answer;
 }
-출처: //yong-nyong.tistory.com/18 [💻용뇽 개발 노트💻:티스토리]
+// 출처: //yong-nyong.tistory.com/18 [💻용뇽 개발 노트💻:티스토리]
 
-https: console.log(solution(progresses, speeds));
+// 안보고 풀어보기
+// const progresses = [95, 90, 99, 99, 80, 99];
+// const speeds = [1, 1, 1, 1, 1, 1];
+// 7, 3, 7 -> [2, 1]
+// 5, 10, 1, 1, 20, 1 -> [1, 3, 2]
+const hardTraining = (progresses, speeds) => {
+  const days = [];
+  progresses.map((progress, index) => {
+    days.push(Math.ceil((100 - progress) / speeds[index]));
+  });
+  const answer = [];
+  let count = 1;
+  let maxDay = days[0];
+
+  for (let i = 1; i < days.length; i++) {
+    if (days[i] < maxDay) {
+      count++;
+    } else {
+      maxDay = days[i];
+      answer.push(count);
+      // count = 1을 안써줬음
+      count = 1;
+      continue;
+    }
+  }
+  // 여기서 answer.push를 안해줬음
+  answer.push(count);
+  return answer;
+};
+
+console.log(hardTraining(progresses, speeds));
