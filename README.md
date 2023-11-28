@@ -21,6 +21,7 @@
 - 2023-11-21: 스택큐 1문제
 - 2023-11-22: 21일에 푼 문제 복습
 - 2023-11-23: 연습문제 1문제
+- 2023-11-28: 연습문제 1문제
 
 </div>
 </details>
@@ -39,6 +40,7 @@
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort'>sort((a, b) => b + a - (a + b))</a>: 문자열을 비교할 때, 두 문자열을 이은 값이 큰 순서대로 정렬한다.
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max'>Math.max()</a>: 배열을 넣을 때 `...array`로 넣어준다. Math.max()는 숫자(배열)만 받는다(문자는 NaN이 됨)
 - <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map'>map()</a>: 두번째 인자가 있다. 그래서 잘 하면 이중 for문을 만들 수 있는 것 같다.
+- <a href='https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/toString'>.toString(2)</a>: toString은 array, object, string, number 등을 문자형으로 바꿔준다. number.toString(진수)로 사용하면 다른 진수로 변환해준다.
 
 #### 개념 정리
 
