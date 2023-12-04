@@ -23,13 +23,14 @@
 - 2023-11-23: 연습문제 1문제
 - 2023-11-28: 연습문제 1문제
 - 2023-11-29: 연습문제 1문제
+- 2023-12-04: 완전탐색 1문제
 
 </div>
 </details>
 
 ### 배운 것
 
-<details>
+<details></details>
 <summary>기록</summary>
 <div markdown="1">
 
